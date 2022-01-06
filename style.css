@@ -8,7 +8,7 @@
     padding: 0 7%;
 }
 
-a.btn {
+.btn {
     text-decoration: none;
     display: inline-block;
     background: #4F47E3;
@@ -22,6 +22,14 @@ a.btn {
 
 .yllo_color {
     color: #F29E4C;
+}
+
+.section_title h1 {
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    color: #080b22;
 }
 /* header section */
 .header {
@@ -72,13 +80,7 @@ a.btn {
 }
 
 /* mission */
-.mission_title h1 {
-    font-size: 40px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    text-align: center;
-    color: #080b22;
-}
+
 
 section.mission {
     margin-top: 90px;
@@ -160,8 +162,66 @@ background: #c2feff94;
     margin: 12px 0 17px;
 }
 
+/* contact us */
+section.contact {
+    margin-top: 90px;
+    font-family: 'Poppins';
+}
+
+.form {
+    width: 37%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+    box-shadow: 0 0 10px #000;
+    border-radius: 12px;
+}
+
+section.contact label {color: #000;font-weight: 500;font-size: 15px;margin-left: 5px;}
+
+section.contact input {
+    color: #000;
+    background: #e0dff394;
+    border: 2px solid #4f47e3;
+    border-radius: 15px;
+    padding: 11px 13px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    width: 100%;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+
+
+.form form {
+    width: 85%;
+  }
+
+ .form textarea{
+     color: #000;
+     background: #e0dff394;
+     border: 2px solid #4f47e3;
+     border-radius: 15px;
+     padding: 11px 13px;
+     font-size: 14px;
+     font-family: 'Poppins';
+     width: 70%;
+     height: 137px;
+ }
+
+ input#submit {
+    width: 115px;
+    margin-top: 37px;
+    border: none;
+    background: #3039e3;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
  /*footer */
-footer.footer {
+ footer.footer {
     background: #0e0e0e;
     font-family: 'Poppins';
     text-align: center;
