@@ -1,0 +1,185 @@
+/* default css */
+*{
+    margin:0;
+    padding:0;
+}
+
+.section_padding{
+    padding: 0 7%;
+}
+
+a.btn {
+    text-decoration: none;
+    display: inline-block;
+    background: #4F47E3;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.yllo_color {
+    color: #F29E4C;
+}
+/* header section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header_left,.header_right {
+    flex-basis: 50%;
+}
+
+
+.header_right img{
+    width: 80%;
+    float: right;
+}
+
+.header_left_title h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 12px;
+}
+
+
+
+.header_left p {
+    color: #696969;
+    font-family: 'Poppins', sans-serif;
+    margin: 14px 0;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.header_left_title {
+    border-left: 3px solid #4F47E3;
+}
+
+
+
+.header small{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-top: 26px;
+}
+
+/* mission */
+.mission_title h1 {
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    color: #080b22;
+}
+
+section.mission {
+    margin-top: 90px;
+}
+
+.mission_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.mission_box img {
+    max-width: 80px;
+}
+
+.mission_box {
+    flex-basis: 32%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    height: 315px;
+    padding: 10px 29px;
+}
+
+.mission_box h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.mission_box p {
+    color: #696969;
+    font-size: 15px;
+}
+
+#mission_skills {
+    background: #ffbe8529;
+}
+
+div#mission_practise {
+   
+background: #c2feff94;
+}
+
+
+#mission_goals {
+    background: #d7d8e76b;
+}
+
+.about {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_pic {
+    flex-basis: 32%;
+}
+
+.about_pic img {
+    max-width: 100%;
+}
+
+.about_text {
+    flex-basis: 62%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.about_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about_text p {
+    font-size: 15px;
+    color: #545454;
+    margin: 12px 0 17px;
+}
+
+ /*footer */
+footer.footer {
+    background: #0e0e0e;
+    font-family: 'Poppins';
+    text-align: center;
+    color: #fff;
+    padding: 19px 0;
+}
+
+footer.footer small {
+    font-weight: 300;
+    color: #f0f8ffad;
+}
+
+footer.footer h3 {
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+footer.footer h3 span{
+    color: #4F47E3;
+
+}
